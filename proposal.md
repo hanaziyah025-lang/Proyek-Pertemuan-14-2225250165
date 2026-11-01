@@ -31,10 +31,11 @@ Program dibatasi pada pengolahan data nilai dari file teks. Program tidak menggu
 2. Memeriksa apakah data nilai berada pada rentang 0–100.
 3. Menghitung nilai rata-rata.
 4. Menentukan nilai tertinggi dan terendah.
-5. Menentukan status kelulusan.
+5. Menentukan status kelulusan berdasarkan batas nilai minimal 75, yaitu nilai ≥ 75 dinyatakan Lulus dan nilai < 75 dinyatakan Tidak Lulus.
 6. Menampilkan dan menyimpan hasil analisis.
 
 ### 5. Kebutuhan Nonfungsional
+
 1. Program dapat dijalankan melalui terminal.
 2. Program memiliki pesan kesalahan yang mudah dipahami.
 3. Nama variabel dan fungsi mudah dimengerti.
