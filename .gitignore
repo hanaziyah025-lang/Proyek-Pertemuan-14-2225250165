@@ -1,0 +1,17 @@
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Virtual environment
+venv/
+.venv/
+
+# Temporary files
+*.tmp
+*.log
+
+# Generated output
+output/*
+
+# Keep output folder
+!output/.gitkeep

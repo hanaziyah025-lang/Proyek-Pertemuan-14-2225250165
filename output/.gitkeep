@@ -1,0 +1,15 @@
+proyek-akhir-2225250165/
+├── README.md
+├── proposal.md
+├── .gitignore
+├── data/
+│   └── nilai_contoh.txt
+├── src/
+│   ├── main.py
+│   ├── data_io.py
+│   ├── analisis.py
+│   └── utilitas.py
+├── tests/
+│   └── test_case.md
+└── output/
+    └── .gitkeep
