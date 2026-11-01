@@ -28,5 +28,22 @@ Pengujian dilakukan untuk memastikan program dapat membaca, memvalidasi, dan men
 | 9 | Gita,abc | Data ditolak karena nilai bukan angka |
 | 10 | File kosong | Program menampilkan pesan bahwa tidak ada data yang dapat dianalisis |
 
-### Kesimpulan
+### 4. Kesimpulan
 Program diharapkan dapat menerima data yang valid, menolak data yang tidak sesuai, serta menampilkan pesan yang jelas ketika terjadi kesalahan.
+
+
+## 5. Hasil Pengujian Program
+
+| No. | Jenis Pengujian | Data Masukan | Hasil yang Diharapkan | Hasil Aktual | Status |
+|---|---|---|---|---|---|
+| 1 | Normal | Andi,80; Budi,90; Citra,75; Dinda,60; Eko,85 | Rata-rata 78.00, 4 lulus, 1 tidak lulus | Sesuai harapan | Berhasil |
+| 2 | Batas minimum | Citra,0 | Data diterima, status Tidak Lulus | Data diterima, status Tidak Lulus | Berhasil |
+| 3 | Batas maksimum | Dinda,100 | Data diterima, status Lulus | Data diterima, status Lulus | Berhasil |
+| 4 | Nilai negatif | Eko,-5 | Data ditolak | Data dilewati | Berhasil |
+| 5 | Nilai di atas 100 | Fani,110 | Data ditolak | Data dilewati | Berhasil |
+| 6 | Nilai bukan angka | Gita,abc | Data ditolak | Data dilewati | Berhasil |
+| 7 | Data kosong | File tanpa isi | Program menampilkan pesan bahwa tidak ada data valid | Pesan ditampilkan tanpa error | Berhasil |
+
+## 6. Kesimpulan Pengujian
+
+Berdasarkan pengujian yang telah dilakukan, program dapat membaca data nilai mahasiswa, memvalidasi nilai dalam rentang 0 sampai 100, menghitung hasil analisis, menentukan status kelulusan, dan menyimpan laporan. Program juga dapat menangani data tidak valid dan file kosong tanpa mengalami error.
