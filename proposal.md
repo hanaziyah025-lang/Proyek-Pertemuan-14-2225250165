@@ -102,4 +102,4 @@ Proyek dikerjakan secara individu. Seluruh kegiatan perancangan, pembuatan progr
 - Pertemuan 15: implementasi, pengujian, dan penyempurnaan program.
 
 ### 13. Repository GitHub
-Repository GitHub akan dicantumkan setelah proyek dibuat dan diunggah.
+https://github.com/hanaziyah025-lang/Proyek-Pertemuan-14-2225250165
