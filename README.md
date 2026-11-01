@@ -67,7 +67,8 @@ Proyek-Pertemuan-14-2225250165/
 ```
 
 ## 9. Pengujian Program
-Pengujian telah dilakukan terhadap:
+
+Pengujian telah dilakukan terhadap sembilan skenario, yaitu:
 - Data normal.
 - Nilai batas minimum 0.
 - Nilai batas maksimum 100.
@@ -75,8 +76,10 @@ Pengujian telah dilakukan terhadap:
 - Nilai di atas 100.
 - Nilai bukan angka.
 - File kosong.
+- Nilai 74 untuk menguji batas kelulusan.
+- File input tidak ditemukan.
 
-Seluruh tujuh skenario pengujian yang dijalankan memberikan hasil sesuai harapan. Dokumentasi pengujian dapat dilihat pada `tests/test_case.md`.
+Seluruh sembilan skenario pengujian memberikan hasil sesuai harapan. Dokumentasi pengujian dapat dilihat pada `tests/test_case.md`.
 
 ## 10. Hasil Program
 Berdasarkan data contoh, program menghasilkan:

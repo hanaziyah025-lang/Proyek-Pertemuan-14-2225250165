@@ -1,5 +1,4 @@
-# TEST CASE
-## Program Analisis Nilai Mahasiswa
+# Program Analisis Nilai Mahasiswa
 
 Pengujian dilakukan untuk memastikan program dapat membaca, memvalidasi, dan menganalisis data nilai mahasiswa dengan benar.
 
@@ -29,8 +28,8 @@ Pengujian dilakukan untuk memastikan program dapat membaca, memvalidasi, dan men
 | 10 | File kosong | Program menampilkan pesan bahwa tidak ada data yang dapat dianalisis |
 
 ### 4. Kesimpulan
-Program diharapkan dapat menerima data yang valid, menolak data yang tidak sesuai, serta menampilkan pesan yang jelas ketika terjadi kesalahan.
 
+Program diharapkan dapat menerima data yang valid, menolak data yang tidak sesuai, serta menampilkan pesan yang jelas ketika terjadi kesalahan.
 
 ## 5. Hasil Pengujian Program
 
@@ -43,7 +42,9 @@ Program diharapkan dapat menerima data yang valid, menolak data yang tidak sesua
 | 5 | Nilai di atas 100 | Fani,110 | Data ditolak | Data dilewati | Berhasil |
 | 6 | Nilai bukan angka | Gita,abc | Data ditolak | Data dilewati | Berhasil |
 | 7 | Data kosong | File tanpa isi | Program menampilkan pesan bahwa tidak ada data valid | Pesan ditampilkan tanpa error | Berhasil |
+| 8 | Batas kelulusan | Citra,74 | Status Tidak Lulus | Status Tidak Lulus | Berhasil |
+| 9 | File tidak ditemukan | File input diubah namanya sementara | Program menampilkan pesan file tidak ditemukan | Pesan file tidak ditemukan ditampilkan tanpa error | Berhasil |
 
 ## 6. Kesimpulan Pengujian
 
-Berdasarkan pengujian yang telah dilakukan, program dapat membaca data nilai mahasiswa, memvalidasi nilai dalam rentang 0 sampai 100, menghitung hasil analisis, menentukan status kelulusan, dan menyimpan laporan. Program juga dapat menangani data tidak valid dan file kosong tanpa mengalami error.
+Berdasarkan pengujian yang telah dilakukan, program dapat membaca data nilai mahasiswa, memvalidasi nilai dalam rentang 0 sampai 100, menghitung hasil analisis, menentukan status kelulusan, dan menyimpan laporan. Program juga dapat menangani data tidak valid, file kosong, dan file yang tidak ditemukan tanpa mengalami error. Seluruh sembilan skenario pengujian yang dicatat pada bagian hasil pengujian memberikan hasil sesuai harapan.
